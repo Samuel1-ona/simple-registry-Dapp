@@ -17,7 +17,7 @@
   },
   {
     "inputs": [],
-    "name": "getEntityDetails",
+    "name": "getStudentDetails",
     "outputs": [
       {
         "internalType": "string",
@@ -41,7 +41,7 @@
         "type": "uint256"
       }
     ],
-    "name": "updateAge",
+    "name": "updateStudentAge",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -54,7 +54,7 @@
         "type": "string"
       }
     ],
-    "name": "updateName",
+    "name": "updateStudentName",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

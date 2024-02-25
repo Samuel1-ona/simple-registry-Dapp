@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
-const { URL, KEY } = process.env;
+const { URL, KEY, ETH } = process.env;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -11,5 +11,8 @@ module.exports = {
       url: URL,
       accounts: [`0x${KEY}`],
     },
+  },
+  etherscan: {
+    apiKey: ETH,
   },
 };

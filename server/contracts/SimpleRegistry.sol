@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-contract SimpleRegistry {
+contract SimpleSchoolRegistry {
     string private entityName;
     uint private entityAge;
 
@@ -12,17 +12,17 @@ contract SimpleRegistry {
     }
 
     // Function to update the entity's name
-    function updateName(string memory newName) public {
+    function  updateStudentName(string memory newName) public {
         entityName = newName;
     }
 
     // Function to update the entity's age
-    function updateAge(uint newAge) public {
+    function updateStudentAge(uint newAge) public {
         entityAge = newAge;
     }
 
     // Function to retrieve the entity's name and age
-    function getEntityDetails() public view returns (string memory name, uint age) {
+    function getStudentDetails() public view returns (string memory name, uint age) {
         return (entityName, entityAge);
     }
 }

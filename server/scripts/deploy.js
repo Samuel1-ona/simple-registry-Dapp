@@ -8,8 +8,8 @@ const hre = require("hardhat");
 
 async function main() {
   const simpleRegistry = await hre.ethers.deployContract(
-    "SimpleRegistry",
-    ["samuel", 2],
+    "SimpleSchoolRegistry",
+    ["samuel", 10 ],
     {}
   );
 
